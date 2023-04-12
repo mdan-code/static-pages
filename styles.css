@@ -1,0 +1,32 @@
+body {
+    background-color: rgb(19, 18, 18);
+}
+
+.sidebar {
+    background:green;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 18%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+
+
+.sidebar ul li a{
+    display: block;
+    padding: 13px 30px;
+    border-bottom: 1px solid #10558d;
+    color: rgb(241, 237, 237);
+    font-size: 16px;
+    position: relative;
+}
+
+.wrapper .sidebar ul li a .icon{
+    color: #dee4ec;
+    width: 30px;
+    display: inline-block;
+}
