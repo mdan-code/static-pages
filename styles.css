@@ -1,17 +1,88 @@
 body {
-    background-color: rgb(19, 18, 18);
+    background-color: #252525;
 }
 
 
 .material-symbols-outlined {
     vertical-align: middle;
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 800,
-  'GRAD' 0,
-  'opsz' 0
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 800,
+    'GRAD' 0,
+    'opsz' 0
 }
 
+
+nav {
+    box-shadow: 0 1px 8px rgbl(0, 0, 0, 0.3);
+}
+nav ul li {
+    text-align: center;
+}
+
+nav ul.right {
+    padding-right: 12px;
+}
+nav ul.right li {
+    max-width: 48px;
+}
+nav ul a {
+    padding-right: 0 12px;
+}
+  nav ul a img {
+    height: 32px;
+    width: 32px;
+    vertical-align: middle;
+    margin-left: -5px;
+}
+
+.nav-wrapper {
+    padding-left: 12px;
+}
+.nav-wrapper ul a:hover {
+  background-color: transparent;
+}
+.nav-wrapper .title {
+  font-size: 1.4rem;
+}
+.nav-wrapper .btn-flat {
+  background-color: #4285f4 !important;
+  font-size: 13px;
+  font-weight: 500;
+  height: 30px;
+  line-height: 30px;
+  width: 94px;
+}
+
+.search-wrapper {
+  border-radius: 20px;
+  background-color: #252525;
+  margin: 10px auto 0 170px;
+  width: calc(100% - 450px);
+  max-width: 650px;
+  height: 46px;
+  position: fixed;
+}
+.search-wrapper i {
+  color: #f5f5f5;
+  position: absolute;
+  font-size: 24px;
+  top: 5px;
+  left: 24px;
+  line-height: 36px !important;
+}
+input[type="search"]:not(.browser-default) {
+  display: block;
+  color: #f5f5f5;
+  border-bottom: none !important;
+}
+input[type="search"]:focus {
+  box-shadow: none !important;
+}
+input[type="search"]::placeholder {
+  padding-left: 60px;
+  color: #f5f5f5;
+}
 
 .sidebar {
     background:green;
@@ -30,5 +101,4 @@ body {
     text-decoration: none;
     font-family: 'Mulish', sans-serif;
     color: aliceblue;
-
 }
